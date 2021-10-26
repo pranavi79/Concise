@@ -18,7 +18,16 @@ body {
       margin: 30vh auto;
       display: none;
 }
-
+.loader2 {
+      border: 10px solid #1dd3b0;
+      border-top: 10px solid #affc41;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1.2s linear infinite;
+      margin: 30vh auto;
+      display: none;
+}
 @keyframes spin {
       0% {
             transform: rotate(0deg);
